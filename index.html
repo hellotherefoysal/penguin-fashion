@@ -12,6 +12,7 @@
             extend: {
               colors: {
                 clifford: '#da373d', 
+                cream: '#FFFBF0'
               }
             }
           }
@@ -21,7 +22,7 @@
 <body>
     <!-- header section start -->
 <header>
-    <section class="container mx-auto">
+    <section class="p-4 sm:container mx-auto sm:flex items-center justify-around bg-cream py-8">
         <div class="space-y-4">
             <h1 class="text-5xl uppercase font-bold">
                 <span class="text-yellow-400">Be The Penguins</span>
@@ -31,8 +32,8 @@
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             <button class="text-3xl font-semibold uppercase bg-lime-600 text-white py-4 px-4 rounded-lg">Buy Now</button>
         </div>
-        <div>
-            <img src="images/model.png" alt="">
+        <div class="pt-8 sm:pt-0 ">
+            <img class="w-1/2 sm:w-full" src="images/model.png" alt="">
         </div>
     </section>
 </header>
